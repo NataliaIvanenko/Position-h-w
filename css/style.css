@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.maine {
+    background-image: url("../images/bg_02.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: #af2024 solid 40px;
+    padding-top: 20px;
+    background-size: 100% auto;
+    background-color: #3f0002;
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.logo {
+max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    max-width: 710px;
+margin: auto;
+    margin-top: 33px;
+    background-color: white;
+  z-index: 1;
+    position: relative;
+
+}
+
+.heading h1 {
+    padding: 32px 0 28px 18px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+}
+
+.heading {
+    background-color: #98161b;
+
+}
+
+.player {
+    background-color: #e7e7e7;
+    max-width: 567px;
+    margin: auto;
+    height: 346px;
+    position: relative;
+    margin-top: 63px;
+
+}
+
+.play {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -27px;
+    margin-left: -24px;
+}
+
+.text {
+    max-width: 567px;
+    margin: auto;
+    padding: 32px 15px 128px;
+
+
+}
+
+.name {
+    font-size: 13px;
+    color: #98161b;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.name :after {
+    content: "";
+    display: block;
+    border-bottom: dotted 2px #98161b;
+    width: 43px;
+    padding-bottom: 21px;
+}
+
+.date {
+    color: #7d7d7d;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+}
+
+.description {
+    color: #98161b;
+    font-family: 'Arvo', serif;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+footer {
+    background-color: black;
+
+    height: 450px;
+    z-index: 0;
+    top: -70px;
+    position: relative;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+    background-color: #850409;
+    text-align: center;
+}
+.icon i{
+    font-size: 33px;
+    color: white;
+    line-height: 50px;
+
+}
+.twitter{
+    background-color:#98161b;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.icon{
+    display: inline-block;
+    position: fixed;
+    right: 0;
+    z-index: 2;
+}
+.icon ul{
+    list-style: none;
+}
